@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*hero section bg-image */
+.bgImage{
+    background-image: url('../resources/B-Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+
+    
+}
+/* hero section text style */
+.upsite-text{
+    font-family: 'Merriweather', serif;
+    color: #FFFF;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 90px;
+}
+.upsite-text > h5{
+    font-weight: 400;
+    font-size: 28px;
+    /* font-weight: 400;
+    font-size: 32px; */
+}

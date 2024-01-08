@@ -28,6 +28,34 @@
 .upsite-text > h5{
     font-weight: 400;
     font-size: 28px;
-    /* font-weight: 400;
-    font-size: 32px; */
+
+}
+/* offfer 65% style css*/
+
+.offerText > h3{
+    color: #F00;
+    font-family: inherit;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+}
+.offerText > h4{
+    text-align: center;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.offerText > p{
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 16px;
+}
+.offerText > img{
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 802px;
+    height: 500px;
 }

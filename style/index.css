@@ -1,24 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /*hero section bg-image  work start*/
-.bgImage{
+.bgImage {
     background-image: url('../resources/B-Image.png');
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
     margin-top: 50px;
     margin-left: 100px;
-    
 
-    
+
+
 }
+
 /*hero section bg-image  work start*/
 
 /* hero section text style work start */
-.upsite-text{
+.upsite-text {
     font-family: 'Merriweather', serif;
     color: #FFFF;
     text-align: center;
@@ -27,44 +28,50 @@
     font-weight: 900;
     line-height: 90px;
 }
-.upsite-text > h5{
+
+.upsite-text>h5 {
     font-weight: 400;
     font-size: 28px;
 }
+
 /* hero section text style work end */
 
 /* offfer 65% style css work start*/
 
-.offerText > h3{
+.offerText>h3 {
     color: #F00;
     font-family: inherit;
     font-size: 88px;
     font-weight: 700;
     text-align: center;
 }
-.offerText > h4{
+
+.offerText>h4 {
     text-align: center;
     color: #F00;
     font-size: 24px;
     font-weight: 600;
     margin-top: 40px;
 }
-.offerText > p{
+
+.offerText>p {
     color: #000;
     text-align: center;
     font-weight: 700;
     font-size: 48px;
     margin-top: 16px;
 }
-.offerText > img{
+
+.offerText>img {
     margin-left: 25%;
     margin-top: 50px;
     width: 802px;
     height: 500px;
 }
+
 /* offfer 65% style css work end*/
 /* midnight work style css start */
-.bg_midnight{
+.bg_midnight {
 
     background-image: url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
@@ -74,43 +81,49 @@
     margin-left: 100px;
     display: flex;
 }
-.bg_midnight > image{
+
+.bg_midnight>image {
     margin-top: 100px;
     margin-right: 100px;
     width: 319.83px;
     height: 464px;
 }
+
 /* text style start */
-.w_partyText{
+.w_partyText {
     padding: 126px 126px;
 }
-.w_partyText > h1{
+
+.w_partyText>h1 {
     color: #FFF;
     font-family: 'Merriweather', serif;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
 }
-.w_partyText > p{
+
+.w_partyText>p {
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
     color: #FFF;
     padding-top: 10px;
 }
-.w_partyText > button{
-    border: whitesmoke ;
+
+.w_partyText>button {
+    border: whitesmoke;
     padding: 15px 25px;
     border-radius: 8px;
     background: #F00;
     margin-top: 15px;
     font-weight: 600;
 }
+
 /* text style end */
 /* midnight work style css end */
 
 /* place, date time text work css start */
-.bg_color{
+.bg_color {
     width: 1320px;
     height: 482px;
     background-image: linear-gradient(#ff00003e, #FF000000);
@@ -118,7 +131,8 @@
     margin-left: 100px;
     border-radius: 5px;
 }
-.joiningData{
+
+.joiningData {
     text-align: center;
     padding: 300px;
     line-height: 40px;
@@ -127,18 +141,22 @@
 
 
 }
-.place{
+
+.place {
     color: #F00;
 }
-.data{
+
+.data {
     color: #F00;
 
 }
-.time{
+
+.time {
     color: #F00;
 }
-.btn{
-    border: whitesmoke ;
+
+.btn {
+    border: whitesmoke;
     padding: 15px 25px;
     border-radius: 8px;
     background: #F00;
@@ -146,4 +164,51 @@
     color: #FFF;
     font-weight: 600;
 }
+
 /* place, date time text work css start */
+.offer_Container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    width: 1320px;
+    height: 482px;
+}
+
+.party_image {
+    width: 364px;
+    height: 364px;
+    padding-left: 90px;
+}
+.text_site{
+    padding-top: 100px;
+}
+
+.text_sitePara {
+    color: #F00;
+    font-size: 34px;
+    font-family: initial;
+    font-weight: 800;
+
+}
+
+.text-declear {
+    color: #000;
+    font-size: 48px;
+    font-family: initial;
+    font-weight: 900;
+    padding-bottom:20px;
+     
+}
+
+.offer_text {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight:600;
+    line-height: 21px;
+    padding-top: 30px;
+    
+}
+.rightSitetext > img{
+    padding-top: 100px;
+}

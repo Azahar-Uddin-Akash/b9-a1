@@ -174,7 +174,7 @@
     margin-top: 150px;
     width: 1320px;
     height: 482px;
-    padding-left: 110px;
+    padding-left: 60px;
 }
 
 .party_image {
@@ -234,7 +234,8 @@
     margin-top: 120px;
     width: 1600px;
     
-    height: 835px;
+    /* height: 835px; */
+    padding-right: 90px;
 }
 
 .function h5 {
@@ -256,14 +257,10 @@
     padding-top: 15px;
     
 }
-.salEofferImage img{
-    
-    margin-left: 100px;
-    
-}
+
 .box{
     width: 500px;
     padding-bottom: 200px;
-    padding-left: 0;
+    
     
 }

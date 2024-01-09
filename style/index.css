@@ -165,21 +165,34 @@
     font-weight: 600;
 }
 
-/* place, date time text work css start */
+/* place, date time text work css end */
+
+/* best offer/ coming soon work start */
 .offer_Container {
     display: flex;
     justify-content: space-around;
     margin-top: 150px;
     width: 1320px;
     height: 482px;
+    padding-left: 110px;
 }
 
 .party_image {
     width: 364px;
     height: 364px;
-    padding-left: 90px;
+
 }
-.text_site{
+
+.bg-red {
+    width: 363px;
+    height: 363px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+
+}
+
+.text_site {
     padding-top: 100px;
 }
 
@@ -196,19 +209,61 @@
     font-size: 48px;
     font-family: initial;
     font-weight: 900;
-    padding-bottom:20px;
-     
+    padding-bottom: 20px;
+
 }
 
 .offer_text {
     color: #000;
     font-family: Inter;
     font-size: 18px;
-    font-weight:600;
+    font-weight: 600;
     line-height: 21px;
     padding-top: 30px;
+
+}
+
+.rightSitetext>img {
+    padding-top: 100px;
+}
+
+/* best offer/ coming soon work end */
+/* holyday work css start */
+.function {
+    text-align: center;
+    margin-top: 120px;
+    width: 1600px;
+    
+    height: 835px;
+}
+
+.function h5 {
+    margin-top: 120px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.function h2{
+    font-size: 72px;
+}
+.Holidays {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+.function p{
+    font-size: 18px;
+    padding-top: 15px;
     
 }
-.rightSitetext > img{
-    padding-top: 100px;
+.salEofferImage img{
+    
+    margin-left: 100px;
+    
+}
+.box{
+    width: 500px;
+    padding-bottom: 200px;
+    padding-left: 0;
+    
 }

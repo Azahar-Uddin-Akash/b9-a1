@@ -296,10 +296,12 @@
     flex-wrap: wrap;
     gap: 30px;
     
+    
 }
 .image{
 
     border-radius: 10px;
+    cursor: pointer;
 }
 .image :hover{
     box-shadow:10px 10px 10px #00000045;
@@ -308,3 +310,61 @@
 
 }
 /* awesome portfolio section css work end */
+
+/* subscribe newsletter css work start */
+.subscribeSection{
+    width: 1320px;
+    height: 616px;
+    margin-top: 150px;
+    margin-left: 120px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.emailImage{
+    padding-top: 100px;
+    text-align: center;
+}
+.textinfo{
+    text-align: center;
+    padding-top: 40px;
+}
+.textinfo h2{
+    font-size: 48px;
+}
+.textinfo p{
+    color:#00000076;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+form{
+    left: 40.50%;
+    padding-top: 20px;
+}
+input{
+    display: inline-block;
+    font-size: 22px;
+}
+input[type="text"]{
+    background-color: #fff;
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+input[type="button"]{
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #F00;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 18px;
+}
+
+/* subscribe newsletter css work end */

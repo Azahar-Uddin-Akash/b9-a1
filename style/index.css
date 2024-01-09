@@ -269,6 +269,18 @@
 
 
 }
+.picturoffer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bg-image{
+    background-image: url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    background-position: bottom;
+}
+
 
 /* holyday work css end */
 /* awesome portfolio section css work start */
@@ -399,7 +411,7 @@ input[type="button"]:hover{
 .iconFIL{
     display: flex;
     gap: 30px;
-    padding: 150px 580px 0;
+    padding: 0 580px 0;
     
 }
 
@@ -413,4 +425,10 @@ input[type="button"]:hover{
     display: flex;
     justify-content: space-between;
     padding: 100px  150px 100px;
+}
+hr{
+    background: #000;
+    width: 1170px;
+    margin-left: 150px;
+    
 }

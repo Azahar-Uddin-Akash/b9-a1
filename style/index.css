@@ -307,6 +307,7 @@
     box-shadow:10px 10px 10px #00000045;
     border-radius: 15px;
     opacity: 1;
+    transition: .50s ease-in-out;
 
 }
 /* awesome portfolio section css work end */
@@ -365,6 +366,10 @@ input[type="button"]{
     cursor: pointer;
     color: #FFF;
     font-size: 18px;
+}
+input[type="button"]:hover{
+    background-color:darkblue ;
+    
 }
 
 /* subscribe newsletter css work end */

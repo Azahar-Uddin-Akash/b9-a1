@@ -135,7 +135,7 @@
 
 .joiningData {
     text-align: center;
-    padding: 300px;
+    padding: 150px;
     line-height: 40px;
     font-size: 32px;
     font-family: initial;
@@ -163,7 +163,12 @@
     color: #FFF;
     font-weight: 600;
 }
-
+.btn:hover{
+    color: black;
+    cursor: pointer;
+    background: white;
+    transition: .50s ease-in-out;
+}
 /* place, date time text work css end */
 
 /* best offer/ coming soon work start */
@@ -318,6 +323,7 @@
     height: 616px;
     margin-top: 150px;
     margin-left: 120px;
+    margin-bottom: 120px;
     background: rgba(255, 0, 0, 0.05);
 }
 .emailImage{
@@ -366,10 +372,45 @@ input[type="button"]{
     cursor: pointer;
     color: #FFF;
     font-size: 18px;
+    transition: .50s ease-in-out;
 }
 input[type="button"]:hover{
     background-color:darkblue ;
     
 }
 
+
 /* subscribe newsletter css work end */
+/* footer css start */
+.footerbg{
+    background: #070211;
+    color: #FFF;
+}
+.addressfooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px  150px 0;
+}
+.address{
+    font-size:22px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.iconFIL{
+    display: flex;
+    gap: 30px;
+    padding: 150px 580px 0;
+    
+}
+
+.copyright{
+    font-size: 22px;
+}
+.unsubscribe{
+    font-size: 22px;
+}
+.lasttextFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px  150px 100px;
+}

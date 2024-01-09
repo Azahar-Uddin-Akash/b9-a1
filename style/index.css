@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 /*hero section bg-image  work start*/
@@ -138,8 +139,6 @@
     line-height: 40px;
     font-size: 32px;
     font-family: initial;
-
-
 }
 
 .place {
@@ -233,8 +232,6 @@
     text-align: center;
     margin-top: 120px;
     width: 1600px;
-    
-    /* height: 835px; */
     padding-right: 90px;
 }
 
@@ -243,24 +240,71 @@
     font-size: 18px;
     font-weight: 500;
 }
-.function h2{
+
+.function h2 {
     font-size: 72px;
 }
+
 .Holidays {
     color: #F00;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
 }
-.function p{
+
+.function p {
     font-size: 18px;
     padding-top: 15px;
-    
+
 }
 
-.box{
+.box {
     width: 500px;
     padding-bottom: 200px;
-    
+
+
+}
+
+/* holyday work css end */
+/* awesome portfolio section css work start */
+.portfolioText{
+    padding-top: 100px;
+    padding-left: 120px;
+}
+.portfolioText h5{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.portfolioText h2{
+    color: #000;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.portfolioText p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #000000a9;
+}
+/* image */
+.portfolioImages{
+    padding-top: 50px;
+    padding-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     
 }
+.image{
+
+    border-radius: 10px;
+}
+.image :hover{
+    box-shadow:10px 10px 10px #00000045;
+    border-radius: 15px;
+    opacity: 1;
+
+}
+/* awesome portfolio section css work end */
